@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B525AFF723C18B43003D46D2 /* TL_WN722N.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B525AFF623C18B43003D46D2 /* TL_WN722N.hpp */; };
+		B525AFF923C18B43003D46D2 /* TL_WN722N.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B525AFF823C18B43003D46D2 /* TL_WN722N.cpp */; };
+		B54095D423DDD54F00FEAAC4 /* ar9271.fw in Resources */ = {isa = PBXBuildFile; fileRef = B54095D323DDD54F00FEAAC4 /* ar9271.fw */; };
+		B54095D723DDD60300FEAAC4 /* TL_WN722NFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B54095D523DDD60300FEAAC4 /* TL_WN722NFirmware.cpp */; };
+		B54095D823DDD60300FEAAC4 /* TL_WN722NFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B54095D623DDD60300FEAAC4 /* TL_WN722NFirmware.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B525AFF323C18B43003D46D2 /* TL-WN722N.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TL-WN722N.kext"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B525AFF623C18B43003D46D2 /* TL_WN722N.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TL_WN722N.hpp; sourceTree = "<group>"; };
+		B525AFF823C18B43003D46D2 /* TL_WN722N.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TL_WN722N.cpp; sourceTree = "<group>"; };
+		B525AFFA23C18B43003D46D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54095D323DDD54F00FEAAC4 /* ar9271.fw */ = {isa = PBXFileReference; lastKnownFileType = file; path = ar9271.fw; sourceTree = "<group>"; };
+		B54095D523DDD60300FEAAC4 /* TL_WN722NFirmware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TL_WN722NFirmware.cpp; sourceTree = "<group>"; };
+		B54095D623DDD60300FEAAC4 /* TL_WN722NFirmware.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TL_WN722NFirmware.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B525AFF023C18B43003D46D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B525AFE923C18B43003D46D2 = {
+			isa = PBXGroup;
+			children = (
+				B525AFF523C18B43003D46D2 /* TL-WN722N */,
+				B525AFF423C18B43003D46D2 /* Products */,
+				B59E342923C2972500D288C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B525AFF423C18B43003D46D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B525AFF323C18B43003D46D2 /* TL-WN722N.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B525AFF523C18B43003D46D2 /* TL-WN722N */ = {
+			isa = PBXGroup;
+			children = (
+				B54095D523DDD60300FEAAC4 /* TL_WN722NFirmware.cpp */,
+				B54095D623DDD60300FEAAC4 /* TL_WN722NFirmware.hpp */,
+				B54095D323DDD54F00FEAAC4 /* ar9271.fw */,
+				B525AFF623C18B43003D46D2 /* TL_WN722N.hpp */,
+				B525AFF823C18B43003D46D2 /* TL_WN722N.cpp */,
+				B525AFFA23C18B43003D46D2 /* Info.plist */,
+			);
+			path = "TL-WN722N";
+			sourceTree = "<group>";
+		};
+		B59E342923C2972500D288C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B525AFEE23C18B43003D46D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B525AFF723C18B43003D46D2 /* TL_WN722N.hpp in Headers */,
+				B54095D823DDD60300FEAAC4 /* TL_WN722NFirmware.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B525AFF223C18B43003D46D2 /* TL-WN722N */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B525AFFD23C18B43003D46D2 /* Build configuration list for PBXNativeTarget "TL-WN722N" */;
+			buildPhases = (
+				B525AFEE23C18B43003D46D2 /* Headers */,
+				B525AFEF23C18B43003D46D2 /* Sources */,
+				B525AFF023C18B43003D46D2 /* Frameworks */,
+				B525AFF123C18B43003D46D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TL-WN722N";
+			productName = "TL-WN722N";
+			productReference = B525AFF323C18B43003D46D2 /* TL-WN722N.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B525AFEA23C18B43003D46D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ACANIVE;
+				TargetAttributes = {
+					B525AFF223C18B43003D46D2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B525AFED23C18B43003D46D2 /* Build configuration list for PBXProject "TL-WN722N" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B525AFE923C18B43003D46D2;
+			productRefGroup = B525AFF423C18B43003D46D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B525AFF223C18B43003D46D2 /* TL-WN722N */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B525AFF123C18B43003D46D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54095D423DDD54F00FEAAC4 /* ar9271.fw in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B525AFEF23C18B43003D46D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54095D723DDD60300FEAAC4 /* TL_WN722NFirmware.cpp in Sources */,
+				B525AFF923C18B43003D46D2 /* TL_WN722N.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B525AFFB23C18B43003D46D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: aaronkish@hotmail.com (59D8X92W9E)";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WD6BTMKT2J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B525AFFC23C18B43003D46D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: aaronkish@hotmail.com (59D8X92W9E)";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WD6BTMKT2J;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B525AFFE23C18B43003D46D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development: aaronkish@hotmail.com (59D8X92W9E)";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = WD6BTMKT2J;
+				INFOPLIST_FILE = "TL-WN722N/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULE_NAME = com.acanive.TL_WN722N;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acanive.TL-WN722N";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		B525AFFF23C18B43003D46D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development: aaronkish@hotmail.com (59D8X92W9E)";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = WD6BTMKT2J;
+				INFOPLIST_FILE = "TL-WN722N/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULE_NAME = com.acanive.TL_WN722N;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acanive.TL-WN722N";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B525AFED23C18B43003D46D2 /* Build configuration list for PBXProject "TL-WN722N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525AFFB23C18B43003D46D2 /* Debug */,
+				B525AFFC23C18B43003D46D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B525AFFD23C18B43003D46D2 /* Build configuration list for PBXNativeTarget "TL-WN722N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B525AFFE23C18B43003D46D2 /* Debug */,
+				B525AFFF23C18B43003D46D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B525AFEA23C18B43003D46D2 /* Project object */;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>TL_WN722N</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOMatchCategory</key>
+			<string>TL_WN722N</string>
+			<key>IOClass</key>
+			<string>TL_WN722N</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>bcdDevice</key>
+			<integer>264</integer>
+			<key>idVendor</key>
+			<integer>3315</integer>
+			<key>idProduct</key>
+			<integer>37489</integer>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2020 ACANIVE. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>3.4</string>
+		<key>com.apple.iokit.IOUSBHostFamily</key>
+		<string>1.2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>19.2</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>19.2</string>
+	</dict>
+</dict>
+</plist>
